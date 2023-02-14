@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.main{
+    background: #D3959B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1{
+    padding : 15px;
+}
+/* h1:hover{
+    
+} */
+.card_1{
+    display: inline-block;
+    width:20%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.card_1:hover{
+    transform: scale(1.08);
+}
+.image img{
+    width:100%;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px ;
+    height: 250px;
+    
+}
+.title{
+    text-align: center;
+    padding: 3px;
+    /* text-decoration: underline; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription{
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:white;
+    color: black;
+    transition:1s;
+}
